@@ -1,1 +1,1 @@
-Social-network
+Console social-network using MongoDB
