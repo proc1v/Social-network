@@ -12,20 +12,10 @@ namespace Social_network
 {
     internal class Program
     {
-        static string ConnectionString
-        {
-            get
-            {
-                return new ConfigurationBuilder().AddJsonFile(@"D:\Універ\Лаби\NoSQL Course\Social-network\Social-network\appsettings.json").Build().GetConnectionString("SN");
-            }
-        }
         static void Main(string[] args)
         {
-            var usersRepository = new UsersRepository(ConnectionString);
-            foreach(var user in usersRepository.GetAllUsers())
-            {
-                Console.WriteLine(user);
-            }
+            Menu menu = new Menu();
+            menu.showMenu();
         }
     }
 }

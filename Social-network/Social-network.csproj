@@ -167,6 +167,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Command.cs" />
+    <Compile Include="Menu.cs" />
     <Compile Include="Objects\Comment.cs" />
     <Compile Include="Objects\Post.cs" />
     <Compile Include="Objects\User.cs" />
