@@ -20,5 +20,11 @@ namespace Social_network.Objects
         public List<Comment> Comments { get; set; }
         [BsonElement("likes")]
         public List<string> Likes { get; set; }
+
+        public override string ToString()
+        {
+            return $"\n\nusername: {UserName}   date: {CreationDate.ToShortDateString()}\n" 
+                + $"likes: {Likes.Count}    comments: {Comments.Count}\n\n" + PostText + "\n\n";
+        }
     }
 }

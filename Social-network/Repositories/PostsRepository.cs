@@ -4,6 +4,8 @@ using System.Linq;
 using Social_network.Objects;
 using MongoDB.Bson;
 
+// this class is deprecated. It is better to use IMongoCollection in Command class to use power of MongoDB quering
+
 namespace Social_network.Repositories
 {
     public class PostsRepository

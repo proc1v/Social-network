@@ -11,5 +11,9 @@ namespace Social_network.Objects
         public string CommentText { get; set; }
         [BsonElement("date")]
         public DateTime CreationDate { get; set; }
+        public override string ToString()
+        {
+            return $"\nusername: {UserName}   date: {CreationDate.ToShortDateString()}\n\n{CommentText}";
+        }
     }
 }

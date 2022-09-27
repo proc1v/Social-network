@@ -26,5 +26,10 @@ namespace Social_network.Objects
         public List<string> Interests { get; set; }
         [BsonElement("follows")]
         public List<string> Follows { get; set; }
+
+        public override string ToString()
+        {
+            return $"{FirstName} {LastName} {UserName}";
+        }
     }
 }

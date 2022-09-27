@@ -6,6 +6,7 @@ using MongoDB.Bson;
 
 namespace Social_network.Repositories
 {
+    // this class is deprecated. It is better to use IMongoCollection in Command class to use power of MongoDB quering
     public class UsersRepository
     {
         private IMongoClient _client;
