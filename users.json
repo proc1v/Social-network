@@ -1,0 +1,232 @@
+[{
+  "_id": {
+    "$oid": "633053ccfd51b54cf085a66c"
+  },
+  "first_name": "Lisa",
+  "last_name": "Bernard",
+  "username": "nazar",
+  "password": "nazar",
+  "email": "lisa.bernard@ruiz.com",
+  "birth_date": {
+    "$date": {
+      "$numberLong": "47779200000"
+    }
+  },
+  "interests": [
+    "Programming"
+  ],
+  "follows": [
+    "sandrarios",
+    "robertsmichele",
+    "kylelowery",
+    "yrodgers",
+    "kellie75"
+  ]
+},{
+  "_id": {
+    "$oid": "633053ccfd51b54cf085a66d"
+  },
+  "first_name": "Kevin",
+  "last_name": "Henry",
+  "username": "yrodgers",
+  "password": "85erWuhWUe",
+  "email": "kevin.henry@martinez.com",
+  "birth_date": "2009-12-06",
+  "interests": [
+    "Reading",
+    "Cooking"
+  ],
+  "follows": [
+    "sandrarios",
+    "hdiaz",
+    "reedelizabeth",
+    "hernandezkimberly",
+    "kylelowery"
+  ]
+},{
+  "_id": {
+    "$oid": "633053ccfd51b54cf085a66e"
+  },
+  "first_name": "Rodney",
+  "last_name": "Williams",
+  "username": "hdiaz",
+  "password": "GXrbQ0ei4y",
+  "email": "rodney.williams@watson.com",
+  "birth_date": "2002-01-11",
+  "interests": [
+    "Joggging",
+    "Music",
+    "Football",
+    "Cooking"
+  ],
+  "follows": [
+    "hernandezkimberly",
+    "sandrarios",
+    "robertsmichele",
+    "aaronmorgan"
+  ]
+},{
+  "_id": {
+    "$oid": "633053ccfd51b54cf085a66f"
+  },
+  "first_name": "Michelle",
+  "last_name": "Perez",
+  "username": "kim18",
+  "password": "8FkFkSjz6J",
+  "email": "michelle.perez@olson-martinez.com",
+  "birth_date": "1973-01-27",
+  "interests": [
+    "Cooking",
+    "Maths",
+    "Joggging",
+    "Football"
+  ],
+  "follows": [
+    "aaronmorgan",
+    "sandrarios",
+    "yrodgers",
+    "hernandezkimberly",
+    "kylelowery",
+    "reedelizabeth",
+    "hdiaz",
+    "kellie75"
+  ]
+},{
+  "_id": {
+    "$oid": "633053ccfd51b54cf085a670"
+  },
+  "first_name": "Lauren",
+  "last_name": "Kelly",
+  "username": "sandrarios",
+  "password": "NWWjU5Lk3y",
+  "email": "lauren.kelly@harris-santiago.com",
+  "birth_date": "1980-11-11",
+  "interests": [
+    "Outdoor"
+  ],
+  "follows": [
+    "aaronmorgan",
+    "kellie75",
+    "robertsmichele",
+    "kim18",
+    "reedelizabeth",
+    "hernandezkimberly",
+    "kylelowery"
+  ]
+},{
+  "_id": {
+    "$oid": "633053ccfd51b54cf085a671"
+  },
+  "first_name": "Michael",
+  "last_name": "Turner",
+  "username": "hernandezkimberly",
+  "password": "0eyK1kLpQF",
+  "email": "michael.turner@miller.com",
+  "birth_date": "1995-10-09",
+  "interests": [
+    "Maths",
+    "Outdoor",
+    "Reading",
+    "Volleyball"
+  ],
+  "follows": [
+    "robertsmichele",
+    "kim18",
+    "kylelowery",
+    "yrodgers",
+    "sandrarios",
+    "hdiaz",
+    "reedelizabeth",
+    "kellie75"
+  ]
+},{
+  "_id": {
+    "$oid": "633053ccfd51b54cf085a672"
+  },
+  "first_name": "David",
+  "last_name": "Fisher",
+  "username": "robertsmichele",
+  "password": "HyA2h4zch8",
+  "email": "david.fisher@smith.com",
+  "birth_date": "2010-03-09",
+  "interests": [
+    "Programming",
+    "Volleyball",
+    "Reading"
+  ],
+  "follows": [
+    "hernandezkimberly",
+    "kim18",
+    "reedelizabeth",
+    "kylelowery",
+    "yrodgers"
+  ]
+},{
+  "_id": {
+    "$oid": "633053ccfd51b54cf085a673"
+  },
+  "first_name": "Sherri",
+  "last_name": "Roth",
+  "username": "reedelizabeth",
+  "password": "KNhf1O5C7h",
+  "email": "sherri.roth@larson-sutton.com",
+  "birth_date": "2008-02-14",
+  "interests": [
+    "Cooking"
+  ],
+  "follows": [
+    "hdiaz",
+    "yrodgers",
+    "hernandezkimberly"
+  ]
+},{
+  "_id": {
+    "$oid": "633053ccfd51b54cf085a674"
+  },
+  "first_name": "Darren",
+  "last_name": "Davis",
+  "username": "kellie75",
+  "password": "8rXFl0t42Y",
+  "email": "darren.davis@jones-lee.biz",
+  "birth_date": "1979-06-11",
+  "interests": [
+    "Joggging",
+    "Programming",
+    "Volleyball",
+    "Maths"
+  ],
+  "follows": [
+    "yrodgers",
+    "sandrarios",
+    "hdiaz",
+    "aaronmorgan",
+    "kim18",
+    "reedelizabeth",
+    "kylelowery"
+  ]
+},{
+  "_id": {
+    "$oid": "633053ccfd51b54cf085a675"
+  },
+  "first_name": "Jennifer",
+  "last_name": "Richards",
+  "username": "kylelowery",
+  "password": "8nL3GkhRgs",
+  "email": "jennifer.richards@cruz.biz",
+  "birth_date": "1991-09-26",
+  "interests": [
+    "Cooking",
+    "Music"
+  ],
+  "follows": [
+    "kim18",
+    "yrodgers",
+    "robertsmichele",
+    "hernandezkimberly",
+    "reedelizabeth",
+    "hdiaz",
+    "aaronmorgan",
+    "sandrarios",
+    "kellie75"
+  ]
+}]
