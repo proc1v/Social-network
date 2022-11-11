@@ -1,7 +1,7 @@
 ﻿using MongoDB.Bson.Serialization.Attributes;
 using System;
 
-namespace Social_network.Objects
+namespace Social_network.DAL.EntetiesMongoDB
 {
     public class Comment
     {
